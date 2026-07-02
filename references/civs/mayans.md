@@ -19,22 +19,27 @@ Walls cost -50%
 ## Tech tree: unit lines
 (highest unit the civ can reach on each line; units listed as missing are NOT available; lines not listed at all are entirely unavailable to this civ)
 
+
 **Barracks**
 - Militia line: up to **Two-Handed Swordsman** (missing: Champion)
 - Spearman line: up to **Halberdier**
 - Eagle line: up to **Elite Eagle Warrior**
+
 **Archery Range**
 - Archer line: up to **Arbalester**
 - Skirmisher line: up to **Elite Skirmisher**
+
 **Siege Workshop**
 - Ram line: up to **Siege Ram**
 - Mangonel line: up to **Onager**
 - Scorpion line: up to **Heavy Scorpion**
 - Siege Tower: up to **Siege Tower**
+
 **Dock**
 - Galley line: up to **Galleon**
 - Fire Ship line: up to **Fast Fire Ship**
 - Demolition line: up to **Heavy Demo Ship**
+
 **Monastery**
 - Monk: up to **Monk**
 

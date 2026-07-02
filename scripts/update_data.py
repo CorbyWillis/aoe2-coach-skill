@@ -41,7 +41,7 @@ ARMOR_CLASSES = {
 # Upgrade lines, defined by exact English unit names (self-validating: the script
 # fails loudly if a name disappears after a patch, prompting a quick fix here).
 LINES = [
-    ("Barracks", "Militia line", ["Militia", "Man-at-Arms", "Long Swordsman", "Two-Handed Swordsman", "Champion"]),
+    ("Barracks", "Militia line", ["Militia", "Man-at-Arms", "Long Swordsman", "Two-Handed Swordsman", "Champion", "Legionary"]),
     ("Barracks", "Spearman line", ["Spearman", "Pikeman", "Halberdier"]),
     ("Barracks", "Eagle line", ["Eagle Scout", "Eagle Warrior", "Elite Eagle Warrior"]),
     ("Archery Range", "Archer line", ["Archer", "Crossbowman", "Arbalester"]),
@@ -54,7 +54,7 @@ LINES = [
     # Winged Hussar replaces Hussar for the civs that have it (Poles, Lithuanians);
     # it is civ-exclusive so it is never reported as "missing" for other civs.
     ("Stable", "Scout line", ["Scout Cavalry", "Light Cavalry", "Hussar", "Winged Hussar"]),
-    ("Stable", "Knight line", ["Knight", "Cavalier", "Paladin"]),
+    ("Stable", "Knight line", ["Knight", "Cavalier", "Paladin", "Savar"]),
     ("Stable", "Camel line", ["Camel Rider", "Heavy Camel Rider", "Imperial Camel Rider"]),
     ("Stable", "Battle Elephant line", ["Battle Elephant", "Elite Battle Elephant"]),
     ("Stable", "Steppe Lancer line", ["Steppe Lancer", "Elite Steppe Lancer"]),
@@ -62,7 +62,7 @@ LINES = [
     ("Siege Workshop", "Ram line", ["Battering Ram", "Capped Ram", "Siege Ram"]),
     ("Siege Workshop", "Mangonel line", ["Mangonel", "Onager", "Siege Onager"]),
     ("Siege Workshop", "Scorpion line", ["Scorpion", "Heavy Scorpion"]),
-    ("Siege Workshop", "Bombard Cannon", ["Bombard Cannon"]),
+    ("Siege Workshop", "Bombard Cannon", ["Bombard Cannon", "Houfnice"]),
     ("Siege Workshop", "Armored Elephant line", ["Armored Elephant", "Siege Elephant"]),
     ("Siege Workshop", "Siege Tower", ["Siege Tower"]),
     ("Dock", "Galley line", ["Galley", "War Galley", "Galleon"]),
@@ -208,16 +208,23 @@ def main():
                 continue
             top = have[-1]
             miss = [n for n, i in zip(names, ids) if i not in cunits and i in generic_units and names.index(n) > names.index(top)]
-            replaces = {"Winged Hussar": "Hussar", "Imperial Skirmisher": "Elite Skirmisher",
-                        "Imperial Camel Rider": "Heavy Camel Rider"}
+            replaces = {
+                "Winged Hussar": "civ-exclusive upgrade of Light Cavalry; replaces Hussar",
+                "Imperial Skirmisher": "civ-exclusive upgrade of Elite Skirmisher",
+                "Imperial Camel Rider": "civ-exclusive upgrade of Heavy Camel Rider",
+                "Savar": "civ-exclusive upgrade of Cavalier; fills the Paladin slot",
+                "Legionary": "civ-exclusive upgrade of Long Swordsman; replaces Two-Handed Swordsman and Champion",
+                "Houfnice": "civ-exclusive upgrade of Bombard Cannon",
+            }
             entry = f"- {line_name}: up to **{top}**"
             if top in replaces:
-                entry += f" (upgraded from / replaces {replaces[top]})"
+                entry += f" ({replaces[top]})"
             if miss:
                 entry += f" (missing: {', '.join(miss)})"
             by_building.setdefault(building, []).append(entry)
         for building in ["Barracks", "Archery Range", "Stable", "Siege Workshop", "Dock", "Monastery"]:
             if building in by_building:
+                out.append("")
                 out.append(f"**{building}**")
                 out += by_building[building]
         out.append("")

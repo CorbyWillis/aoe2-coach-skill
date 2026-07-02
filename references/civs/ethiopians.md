@@ -19,28 +19,34 @@ Outposts +3 line of sight and cost no stone
 ## Tech tree: unit lines
 (highest unit the civ can reach on each line; units listed as missing are NOT available; lines not listed at all are entirely unavailable to this civ)
 
+
 **Barracks**
 - Militia line: up to **Two-Handed Swordsman** (missing: Champion)
 - Spearman line: up to **Halberdier**
+
 **Archery Range**
 - Archer line: up to **Arbalester**
 - Skirmisher line: up to **Elite Skirmisher**
 - Cavalry Archer line: up to **Heavy Cavalry Archer**
+
 **Stable**
 - Scout line: up to **Hussar**
 - Knight line: up to **Cavalier**
 - Camel line: up to **Heavy Camel Rider**
+
 **Siege Workshop**
 - Ram line: up to **Siege Ram**
 - Mangonel line: up to **Siege Onager**
 - Scorpion line: up to **Heavy Scorpion**
 - Bombard Cannon: up to **Bombard Cannon**
 - Siege Tower: up to **Siege Tower**
+
 **Dock**
 - Galley line: up to **Galleon**
 - Fire Ship line: up to **Fire Ship** (missing: Fast Fire Ship)
 - Demolition line: up to **Demolition Ship** (missing: Heavy Demo Ship)
 - Cannon Galleon line: up to **Cannon Galleon**
+
 **Monastery**
 - Monk: up to **Monk**
 

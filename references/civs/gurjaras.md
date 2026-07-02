@@ -20,29 +20,35 @@ Camel and Elephant Units train +25% faster
 ## Tech tree: unit lines
 (highest unit the civ can reach on each line; units listed as missing are NOT available; lines not listed at all are entirely unavailable to this civ)
 
+
 **Barracks**
 - Militia line: up to **Two-Handed Swordsman** (missing: Champion)
 - Spearman line: up to **Spearman** (missing: Pikeman, Halberdier)
+
 **Archery Range**
 - Archer line: up to **Crossbowman** (missing: Arbalester)
 - Skirmisher line: up to **Elite Skirmisher**
 - Hand Cannoneer: up to **Hand Cannoneer**
 - Elephant Archer line: up to **Elite Elephant Archer**
+
 **Stable**
 - Scout line: up to **Hussar**
 - Camel line: up to **Heavy Camel Rider**
 - Shrivamsha Rider line: up to **E. Shrivamsha Rider**
+
 **Siege Workshop**
 - Mangonel line: up to **Onager**
 - Scorpion line: up to **Heavy Scorpion**
 - Bombard Cannon: up to **Bombard Cannon**
 - Armored Elephant line: up to **Siege Elephant**
 - Siege Tower: up to **Siege Tower**
+
 **Dock**
 - Galley line: up to **Galleon**
 - Fire Ship line: up to **Fire Ship** (missing: Fast Fire Ship)
 - Demolition line: up to **Heavy Demo Ship**
 - Cannon Galleon line: up to **Cannon Galleon**
+
 **Monastery**
 - Monk: up to **Monk**
 

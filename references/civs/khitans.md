@@ -20,26 +20,32 @@ Infantry +2 attack vs. Ranged Soldiers
 ## Tech tree: unit lines
 (highest unit the civ can reach on each line; units listed as missing are NOT available; lines not listed at all are entirely unavailable to this civ)
 
+
 **Barracks**
 - Militia line: up to **Champion**
 - Spearman line: up to **Pikeman** (missing: Halberdier)
+
 **Archery Range**
 - Archer line: up to **Crossbowman** (missing: Arbalester)
 - Skirmisher line: up to **Elite Skirmisher**
 - Cavalry Archer line: up to **Heavy Cavalry Archer**
+
 **Stable**
 - Scout line: up to **Hussar**
 - Camel line: up to **Heavy Camel Rider**
 - Steppe Lancer line: up to **Elite Steppe Lancer**
+
 **Siege Workshop**
 - Ram line: up to **Siege Ram**
 - Scorpion line: up to **Scorpion** (missing: Heavy Scorpion)
 - Siege Tower: up to **Siege Tower**
+
 **Dock**
 - Galley line: up to **War Galley** (missing: Galleon)
 - Fire Ship line: up to **Fast Fire Ship**
 - Demolition line: up to **Demolition Ship** (missing: Heavy Demo Ship)
 - Cannon Galleon line: up to **Cannon Galleon**
+
 **Monastery**
 - Monk: up to **Monk**
 

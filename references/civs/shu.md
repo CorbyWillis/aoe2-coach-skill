@@ -19,23 +19,29 @@ Foot Archers +2 line of sight
 ## Tech tree: unit lines
 (highest unit the civ can reach on each line; units listed as missing are NOT available; lines not listed at all are entirely unavailable to this civ)
 
+
 **Barracks**
 - Militia line: up to **Champion**
 - Spearman line: up to **Halberdier**
+
 **Archery Range**
 - Archer line: up to **Arbalester**
 - Skirmisher line: up to **Elite Skirmisher**
 - Cavalry Archer line: up to **Heavy Cavalry Archer**
+
 **Stable**
 - Scout line: up to **Light Cavalry** (missing: Hussar)
+
 **Siege Workshop**
 - Ram line: up to **Siege Ram**
 - Mangonel line: up to **Onager**
 - Siege Tower: up to **Siege Tower**
+
 **Dock**
 - Galley line: up to **Galleon**
 - Fire Ship line: up to **Fire Ship** (missing: Fast Fire Ship)
 - Demolition line: up to **Heavy Demo Ship**
+
 **Monastery**
 - Monk: up to **Monk**
 
