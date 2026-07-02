@@ -1,0 +1,57 @@
+# Civilization index
+
+One file per civ. Always open the civ file before making tech-tree claims.
+
+- **Armenians** (Infantry and Naval civilization ) -> `references/civs/armenians.md`
+- **Aztecs** (Infantry and Monk civilization ) -> `references/civs/aztecs.md`
+- **Bengalis** (Elephant and Naval civilization ) -> `references/civs/bengalis.md`
+- **Berbers** (Cavalry and Naval civilization ) -> `references/civs/berbers.md`
+- **Bohemians** (Gunpowder and Monk civilization ) -> `references/civs/bohemians.md`
+- **Britons** (Foot Archer civilization ) -> `references/civs/britons.md`
+- **Bulgarians** (Infantry and Cavalry civilization ) -> `references/civs/bulgarians.md`
+- **Burgundians** (Cavalry civilization ) -> `references/civs/burgundians.md`
+- **Burmese** (Infantry and Cavalry civilization ) -> `references/civs/burmese.md`
+- **Byzantines** (Defensive civilization ) -> `references/civs/byzantines.md`
+- **Celts** (Infantry and Siege civilization ) -> `references/civs/celts.md`
+- **Chinese** (Archer and Gunpowder civilization ) -> `references/civs/chinese.md`
+- **Cumans** (Cavalry civilization ) -> `references/civs/cumans.md`
+- **Dravidians** (Infantry and Naval civilization ) -> `references/civs/dravidians.md`
+- **Ethiopians** (Archer civilization ) -> `references/civs/ethiopians.md`
+- **Franks** (Cavalry civilization ) -> `references/civs/franks.md`
+- **Georgians** (Defensive and Cavalry civilization ) -> `references/civs/georgians.md`
+- **Goths** (Infantry civilization ) -> `references/civs/goths.md`
+- **Gurjaras** (Cavalry and Camel civilization ) -> `references/civs/gurjaras.md`
+- **Hindustanis** (Camel and Gunpowder civilization ) -> `references/civs/hindustanis.md`
+- **Huns** (Cavalry civilization ) -> `references/civs/huns.md`
+- **Incas** (Infantry civilization ) -> `references/civs/incas.md`
+- **Italians** (Archer and Naval civilization ) -> `references/civs/italians.md`
+- **Japanese** (Infantry civilization ) -> `references/civs/japanese.md`
+- **Jurchens** (Cavalry and Gunpowder civilization ) -> `references/civs/jurchens.md`
+- **Khitans** (Infantry and Cavalry civilization ) -> `references/civs/khitans.md`
+- **Khmer** (Siege and Elephant civilization ) -> `references/civs/khmer.md`
+- **Koreans** (Defensive and Naval civilization ) -> `references/civs/koreans.md`
+- **Lithuanians** (Cavalry and Monk civilization ) -> `references/civs/lithuanians.md`
+- **Magyars** (Cavalry civilization ) -> `references/civs/magyars.md`
+- **Malay** (Naval civilization ) -> `references/civs/malay.md`
+- **Malians** (Infantry civilization ) -> `references/civs/malians.md`
+- **Mapuche** (Cavalry and Counter-Units civilization ) -> `references/civs/mapuche.md`
+- **Mayans** (Archer civilization ) -> `references/civs/mayans.md`
+- **Mongols** (Cavalry Archer civilization ) -> `references/civs/mongols.md`
+- **Muisca** (Archer and Monk civilization ) -> `references/civs/muisca.md`
+- **Persians** (Cavalry civilization ) -> `references/civs/persians.md`
+- **Poles** (Cavalry civilization ) -> `references/civs/poles.md`
+- **Portuguese** (Naval and Gunpowder civilization ) -> `references/civs/portuguese.md`
+- **Romans** (Infantry and Cavalry civilization ) -> `references/civs/romans.md`
+- **Saracens** (Camel and Naval civilization ) -> `references/civs/saracens.md`
+- **Shu** (Archer and Siege civilization ) -> `references/civs/shu.md`
+- **Sicilians** (Infantry and Cavalry civilization ) -> `references/civs/sicilians.md`
+- **Slavs** (Infantry and Siege civilization ) -> `references/civs/slavs.md`
+- **Spanish** (Gunpowder and Monk civilization ) -> `references/civs/spanish.md`
+- **Tatars** (Cavalry Archer civilization ) -> `references/civs/tatars.md`
+- **Teutons** (Infantry and Defensive civilization ) -> `references/civs/teutons.md`
+- **Tupi** (Archer and Infantry civilization ) -> `references/civs/tupi.md`
+- **Turks** (Gunpowder civilization ) -> `references/civs/turks.md`
+- **Vietnamese** (Archer civilization ) -> `references/civs/vietnamese.md`
+- **Vikings** (Infantry and Naval civilization ) -> `references/civs/vikings.md`
+- **Wei** (Cavalry civilization ) -> `references/civs/wei.md`
+- **Wu** (Infantry and Naval civilization ) -> `references/civs/wu.md`
